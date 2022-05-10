@@ -1,0 +1,3379 @@
+{
+  "Version": 78,
+  "Individuals": [
+    {
+      "Name": "Dalton1985a",
+      "Seed": 772740859,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 29.5,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 83.4,
+          "Unit": "kg"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "CYP2B6|Reference concentration",
+          "Value": 1.56,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2B6|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2B6|t1/2 (liver)",
+          "Value": 32.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 4.32,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "MATE1|Reference concentration",
+          "Value": 0.13257,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "MATE1|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "MATE1|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "OAT3|Reference concentration",
+          "Value": 0.0917,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "OAT3|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "OAT3|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "OCT1|Reference concentration",
+          "Value": 0.16465,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "OCT1|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "OCT1|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Bone|Intracellular|MATE1|Relative expression",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Bone|Intracellular|OCT1|Relative expression",
+          "Value": 0.02439093
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0021211129296
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|MATE1|Relative expression",
+          "Value": 0.4295320813
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|OAT3|Relative expression",
+          "Value": 0.00061613691932
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|OCT1|Relative expression",
+          "Value": 0.0135293069
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0063502454992
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|MATE1|Relative expression",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|OCT1|Relative expression",
+          "Value": 0.0035130263768
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.00094468085106
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|MATE1|Relative expression",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|OCT1|Relative expression",
+          "Value": 0.0067231912312
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.1043535188
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|MATE1|Fraction expressed apical",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|MATE1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|OAT3|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|OCT1|Relative expression",
+          "Value": 0.031737522
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|MATE1|Relative expression",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|OCT1|Relative expression",
+          "Value": 0.0315629708
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0049787234043
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|MATE1|Relative expression",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|OCT1|Relative expression",
+          "Value": 0.0315629708
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0049787234043
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|MATE1|Relative expression",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|OCT1|Relative expression",
+          "Value": 0.0315629708
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0049787234043
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|MATE1|Relative expression",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|OCT1|Relative expression",
+          "Value": 0.0315629708
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0049787234043
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|MATE1|Relative expression",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|OCT1|Relative expression",
+          "Value": 0.0315629708
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0049787234043
+        },
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2B6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|MATE1|Relative expression",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|OAT3|Relative expression",
+          "Value": 0.00016503667482
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|OCT1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|UGT2B7|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2B6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|MATE1|Relative expression",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|OAT3|Relative expression",
+          "Value": 0.00016503667482
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|OCT1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|UGT2B7|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.5970540098
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|MATE1|Relative expression",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|OCT1|Relative expression",
+          "Value": 0.0146483426
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|MATE1|Relative expression",
+          "Value": 0.3637328555
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|OCT1|Relative expression",
+          "Value": 0.0407525944
+        },
+        {
+          "Path": "Organism|Pancreas|Intracellular|MATE1|Relative expression",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Pancreas|Intracellular|OCT1|Relative expression",
+          "Value": 0.0065687827703
+        },
+        {
+          "Path": "Organism|Pancreas|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0354468085
+        },
+        {
+          "Path": "Organism|Skin|Intracellular|MATE1|Relative expression",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Skin|Intracellular|OCT1|Relative expression",
+          "Value": 0.0119814482
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|MATE1|Relative expression",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|OCT1|Relative expression",
+          "Value": 0.0245459351
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|MATE1|Relative expression",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|OCT1|Relative expression",
+          "Value": 0.0245459351
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|MATE1|Relative expression",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|OCT1|Relative expression",
+          "Value": 0.0245459351
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|MATE1|Relative expression",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|OCT1|Relative expression",
+          "Value": 0.0245459351
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|MATE1|Relative expression",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|OCT1|Relative expression",
+          "Value": 0.0245459351
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|MATE1|Relative expression",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|OCT1|Relative expression",
+          "Value": 0.0245459351
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "Organism|Spleen|Intracellular|MATE1|Relative expression",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Spleen|Intracellular|OCT1|Relative expression",
+          "Value": 0.0050234148247
+        },
+        {
+          "Path": "Organism|Stomach|Intracellular|MATE1|Relative expression",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Stomach|Intracellular|OCT1|Relative expression",
+          "Value": 0.0093257582694
+        },
+        {
+          "Path": "UGT2B7|Reference concentration",
+          "Value": 3.372,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Ohtsuki et al. 2011"
+          }
+        },
+        {
+          "Path": "UGT2B7|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "UGT2B7|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          }
+        },
+        {
+          "Name": "MATE1",
+          "Type": "Transporter",
+          "TransportType": "Efflux",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Brain",
+              "TransportDirection": "EffluxBrainInterstitialToPlasma",
+              "CompartmentName": "Plasma"
+            },
+            {
+              "Name": "Brain",
+              "TransportDirection": "EffluxBrainTissueToInterstitial",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "Fat",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Gonads",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Heart",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Kidney",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "Kidney",
+              "TransportDirection": "ExcretionKidney",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Stomach",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "SmallIntestine",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Duodenum",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "Duodenum",
+              "TransportDirection": "EffluxMucosaIntracellularToLumen",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "UpperJejunum",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "UpperJejunum",
+              "TransportDirection": "EffluxMucosaIntracellularToLumen",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "LowerJejunum",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "LowerJejunum",
+              "TransportDirection": "EffluxMucosaIntracellularToLumen",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "UpperIleum",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "UpperIleum",
+              "TransportDirection": "EffluxMucosaIntracellularToLumen",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "LowerIleum",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "LowerIleum",
+              "TransportDirection": "EffluxMucosaIntracellularToLumen",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "LargeIntestine",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Caecum",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "Caecum",
+              "TransportDirection": "EffluxMucosaIntracellularToLumen",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "ColonAscendens",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "ColonAscendens",
+              "TransportDirection": "EffluxMucosaIntracellularToLumen",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "ColonTransversum",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "ColonTransversum",
+              "TransportDirection": "EffluxMucosaIntracellularToLumen",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "ColonDescendens",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "ColonDescendens",
+              "TransportDirection": "EffluxMucosaIntracellularToLumen",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "ColonSigmoid",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "ColonSigmoid",
+              "TransportDirection": "EffluxMucosaIntracellularToLumen",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Rectum",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "Rectum",
+              "TransportDirection": "EffluxMucosaIntracellularToLumen",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Periportal",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "Periportal",
+              "TransportDirection": "ExcretionLiver",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Pericentral",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "Pericentral",
+              "TransportDirection": "ExcretionLiver",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Lung",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Muscle",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Pancreas",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Skin",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Spleen",
+              "TransportDirection": "EffluxIntracellularToInterstitial",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "BloodCells",
+              "TransportDirection": "EffluxBloodCellsToPlasma"
+            },
+            {
+              "Name": "VascularEndothelium",
+              "TransportDirection": "EffluxInterstitialToPlasma"
+            }
+          ]
+        },
+        {
+          "Name": "OCT1",
+          "Type": "Transporter",
+          "TransportType": "Influx",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Brain",
+              "TransportDirection": "InfluxBrainPlasmaToInterstitial",
+              "CompartmentName": "Plasma"
+            },
+            {
+              "Name": "Brain",
+              "TransportDirection": "InfluxBrainInterstitialToTissue",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "Fat",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Gonads",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Heart",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Kidney",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "Kidney",
+              "TransportDirection": "ExcretionKidney",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Stomach",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "SmallIntestine",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Duodenum",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "Duodenum",
+              "TransportDirection": "InfluxLumenToMucosaIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "UpperJejunum",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "UpperJejunum",
+              "TransportDirection": "InfluxLumenToMucosaIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "LowerJejunum",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "LowerJejunum",
+              "TransportDirection": "InfluxLumenToMucosaIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "UpperIleum",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "UpperIleum",
+              "TransportDirection": "InfluxLumenToMucosaIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "LowerIleum",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "LowerIleum",
+              "TransportDirection": "InfluxLumenToMucosaIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "LargeIntestine",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Caecum",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "Caecum",
+              "TransportDirection": "InfluxLumenToMucosaIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "ColonAscendens",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "ColonAscendens",
+              "TransportDirection": "InfluxLumenToMucosaIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "ColonTransversum",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "ColonTransversum",
+              "TransportDirection": "InfluxLumenToMucosaIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "ColonDescendens",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "ColonDescendens",
+              "TransportDirection": "InfluxLumenToMucosaIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "ColonSigmoid",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "ColonSigmoid",
+              "TransportDirection": "InfluxLumenToMucosaIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Rectum",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "Rectum",
+              "TransportDirection": "InfluxLumenToMucosaIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Periportal",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "Periportal",
+              "TransportDirection": "ExcretionLiver",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Pericentral",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "Pericentral",
+              "TransportDirection": "ExcretionLiver",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Lung",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Muscle",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Pancreas",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Skin",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Spleen",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "BloodCells",
+              "TransportDirection": "InfluxPlasmaToBloodCells"
+            },
+            {
+              "Name": "VascularEndothelium",
+              "TransportDirection": "InfluxPlasmaToInterstitial"
+            }
+          ]
+        },
+        {
+          "Name": "OAT3",
+          "Type": "Transporter",
+          "TransportType": "Influx",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Brain",
+              "TransportDirection": "InfluxBrainPlasmaToInterstitial",
+              "CompartmentName": "Plasma"
+            },
+            {
+              "Name": "Brain",
+              "TransportDirection": "InfluxBrainInterstitialToTissue",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "Fat",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Gonads",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Heart",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Kidney",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "Kidney",
+              "TransportDirection": "ExcretionKidney",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Stomach",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "SmallIntestine",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Duodenum",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "Duodenum",
+              "TransportDirection": "InfluxLumenToMucosaIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "UpperJejunum",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "UpperJejunum",
+              "TransportDirection": "InfluxLumenToMucosaIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "LowerJejunum",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "LowerJejunum",
+              "TransportDirection": "InfluxLumenToMucosaIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "UpperIleum",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "UpperIleum",
+              "TransportDirection": "InfluxLumenToMucosaIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "LowerIleum",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "LowerIleum",
+              "TransportDirection": "InfluxLumenToMucosaIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "LargeIntestine",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Caecum",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "Caecum",
+              "TransportDirection": "InfluxLumenToMucosaIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "ColonAscendens",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "ColonAscendens",
+              "TransportDirection": "InfluxLumenToMucosaIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "ColonTransversum",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "ColonTransversum",
+              "TransportDirection": "InfluxLumenToMucosaIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "ColonDescendens",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "ColonDescendens",
+              "TransportDirection": "InfluxLumenToMucosaIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "ColonSigmoid",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "ColonSigmoid",
+              "TransportDirection": "InfluxLumenToMucosaIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Rectum",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "Rectum",
+              "TransportDirection": "InfluxLumenToMucosaIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Periportal",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "Periportal",
+              "TransportDirection": "ExcretionLiver",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Pericentral",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Interstitial"
+            },
+            {
+              "Name": "Pericentral",
+              "TransportDirection": "ExcretionLiver",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Lung",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Muscle",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Pancreas",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Skin",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "Spleen",
+              "TransportDirection": "InfluxInterstitialToIntracellular",
+              "CompartmentName": "Intracellular"
+            },
+            {
+              "Name": "BloodCells",
+              "TransportDirection": "InfluxPlasmaToBloodCells"
+            },
+            {
+              "Name": "VascularEndothelium",
+              "TransportDirection": "InfluxPlasmaToInterstitial"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2B6",
+          "Type": "Enzyme",
+          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
+        },
+        {
+          "Name": "UGT2B7",
+          "Type": "Enzyme",
+          "Localization": "Intracellular",
+          "Ontogeny": {
+            "Name": "UGT2B7"
+          }
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Carbamazepine",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 2.0067753065,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from '001-5-3_CYP3A4_MM-kinetics_WithoutTablet' on 2022-02-21 16:49"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Morselli 1975",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.243,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Morselli 1975"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "IR tablet (FaHIF)",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 308.3333,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVivo",
+                "Description": "Mean value of the following FaHIF solubility data reported in the literature: 336 µg/mL, pH 6.2 (Annaert 2010); 283 µg/mL, pH 7.0 (Söderlind 2010); 306 mg/mL, pH 6.9 (Clarysse 2011)"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 6.7,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVivo",
+                "Description": "Mean value of the following FaHIF solubility data reported in the literature: 336 µg/mL, pH 6.2 (Annaert 2010); 283 µg/mL, pH 7.0 (Söderlind 2010); 306 mg/mL, pH 6.9 (Clarysse 2011)"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "XR tablet (fitted)",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 546.0199756643,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from '004-2_from-003-1_XRtablet_fasted_solubility_FINAL' on 2022-03-24 12:41"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 6.7,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from '004-2_from-003-1_XRtablet_fasted_solubility_FINAL' on 2022-03-16 18:25"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Acid",
+          "Pka": 11.83,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Tomaszewska 2013"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "Induction",
+          "DataSource": "DMPK",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "EC50",
+              "Value": 27.193363407,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from '003-1_from002-3-6_EC50' on 2022-02-24 10:23"
+              }
+            },
+            {
+              "Name": "Emax",
+              "Value": 5.3929777775,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "DMPK measurement, calibrated with rifampicin"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "Glomerular Filtration",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 0.0240108793,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from '002-3-6_from001-5-3_IRtablet-sd_Pint-FIX_FINAL' on 2022-02-23 17:18"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "N-Glucuronidation_Staines2004",
+          "Molecule": "UGT2B7",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 3.5,
+              "Unit": "pmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Staines 2004"
+              }
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 82.9,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Achour et al - 2014"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 234.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Staines2004"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 0.0668699322,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from '002-3-6_from001-5-3_IRtablet-sd_Pint-FIX_FINAL' on 2022-02-23 17:18"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "3-Hydroxylation_Pearce2002",
+          "Molecule": "CYP2B6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 49.0,
+              "Unit": "pmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Pearce et al. 2002"
+              }
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 39.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Rodrigues 1999"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 235.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown",
+                "Description": "Pearce 2002"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 0.9361790504,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from '002-3-6_from001-5-3_IRtablet-sd_Pint-FIX_FINAL' on 2022-02-23 17:18"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "Epoxidation_Sakamoto2013",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 726.0,
+              "Unit": "pmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown",
+                "Description": "Sakamoto 2013"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 808.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown",
+                "Description": "Sakamoto 2013"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 5.0088763476,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from '002-3-6_from001-5-3_IRtablet-sd_Pint-FIX_FINAL' on 2022-02-23 17:18"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "Induction",
+          "DataSource": "Faucette2004",
+          "Molecule": "CYP2B6",
+          "Parameters": [
+            {
+              "Name": "EC50",
+              "Value": 1000.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Emax",
+              "Value": 148.7284
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 236.2686,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Internet",
+            "Description": "DrugBank"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Cimetidine",
+      "IsSmallMolecule": true,
+      "Lipophilicity": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.655,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.78,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Taylor 1978"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 24.0,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Avdeef 2001"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 6.8,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Avdeef 2001"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Fit",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 5.2554004942E-06,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification' on 2021-09-13 17:00"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 6.93,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Avdeef 2001"
+          }
+        },
+        {
+          "Type": "Acid",
+          "Pka": 13.38,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Avdeef 2001"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "LiverClearance",
+          "DataSource": "Somogyi 1983",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (experiment)",
+              "Value": 0.78
+            },
+            {
+              "Name": "Lipophilicity (experiment)",
+              "Value": 1.655,
+              "Unit": "Log Units"
+            },
+            {
+              "Name": "Plasma clearance",
+              "Value": 0.0,
+              "Unit": "ml/min/kg"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 0.1209722937,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification' on 2021-09-13 17:00"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "ActiveTransportSpecific_MM",
+          "DataSource": "Paper",
+          "Molecule": "MATE1",
+          "Parameters": [
+            {
+              "Name": "Transporter concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 0.0,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 8.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 159.4749627996,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification' on 2021-09-13 17:00"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "ActiveTransportSpecific_MM",
+          "DataSource": "Paper",
+          "Molecule": "OAT3",
+          "Parameters": [
+            {
+              "Name": "Transporter concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 0.0,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 149.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Tahara 2005"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 2522831.1016,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification' on 2021-09-13 17:00"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "ActiveTransportSpecific_MM",
+          "DataSource": "Paper",
+          "Molecule": "OCT1",
+          "Parameters": [
+            {
+              "Name": "Transporter concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 0.0,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 2600.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Umehara 2007"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 14098.3224931732,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification' on 2021-09-13 17:00"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Ito 2012",
+          "Molecule": "OCT1",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 104.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Ito 2012"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Ito 2012",
+          "Molecule": "OCT2",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 124.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Ito 2012"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Ito 2012",
+          "Molecule": "MATE1",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 3.8,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Other",
+                "Description": "NBI measurement"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Wrighton 1994",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 268.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 252.34,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "Drugbank"
+          }
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "CBZ_tabletIR_fasted (Tegretol)",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 109.3089775422,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from '002-3-6_from001-5-3_IRtablet-sd_Pint-FIX_FINAL' on 2022-02-23 17:18"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 0.6890123758,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from '002-3-6_from001-5-3_IRtablet-sd_Pint-FIX_FINAL' on 2022-02-23 17:18"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    },
+    {
+      "Name": "Cimetidine_Tablet",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 1.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 10.0
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "Dalton1985a_ControlPhase_Carbamazepine",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 600.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "Dalton1985a_TreatmentPhase_Cimetidine",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 155.835,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 4.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 155.835,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 3",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 12.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 155.835,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 4",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 8.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 155.835,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 5",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 5.41,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 144.165,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 6",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 1.41,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 144.165,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 7",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 9.41,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 144.165,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 8",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 13.41,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 144.165,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 9.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 24.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Dalton1985a_TreatmentPhase_Carbamazepine",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 600.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 47.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Dalton1985a_ControlPhase",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Dalton 1985a - Placebo (without cimetidine) - Carbamazepine - PO - 600 mg - Plasma - agg. (n=8)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 157.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Dalton1985a_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Dalton1985a",
+      "Compounds": [
+        {
+          "Name": "Carbamazepine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "IR tablet (FaHIF)",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Epoxidation_Sakamoto2013",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2B6-3-Hydroxylation_Pearce2002",
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "Name": "UGT2B7-N-Glucuronidation_Staines2004",
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "MoleculeName": "MATE1"
+            },
+            {
+              "MoleculeName": "OCT1"
+            },
+            {
+              "MoleculeName": "OAT3"
+            },
+            {
+              "Name": "Glomerular Filtration-Glomerular Filtration",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Dalton1985a_ControlPhase_Carbamazepine",
+            "Formulations": [
+              {
+                "Name": "CBZ_tabletIR_fasted (Tegretol)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dalton1985a_ControlPhase-Carbamazepine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Dalton1985a_ControlPhase|Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Dalton 1985a - Placebo (without cimetidine) - Carbamazepine - PO - 600 mg - Plasma - agg. (n=8)-Carbamazepine-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Dalton 1985a - Placebo (without cimetidine) - Carbamazepine - PO - 600 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Dalton 1985a - Placebo (without cimetidine) - Carbamazepine - PO - 600 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine|Individual",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Dalton1985_control_600mg_sd_tabIR",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Carbamazepine-DDI\nDalton1985a_ControlPhase\n2022-05-10 11:56"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-DMPK",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Carbamazepine"
+        },
+        {
+          "Name": "CYP2B6-Faucette2004",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Carbamazepine"
+        }
+      ]
+    },
+    {
+      "Name": "Dalton1985a_TreatmentPhase",
+      "Model": "4Comp",
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 47.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 47.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 49.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 49.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 204.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_20|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_21|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_22|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_23|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_24|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_25|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_26|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_27|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_28|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_29|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_30|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_31|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_32|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_33|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_34|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_35|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_36|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_37|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_38|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_39|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_40|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_41|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_42|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_43|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_44|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_45|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_46|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_47|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_48|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_49|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_50|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_51|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_52|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_53|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_54|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_55|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_56|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_57|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_58|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_59|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_60|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_61|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_62|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_63|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_64|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_65|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_66|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_67|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_68|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_69|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_70|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_71|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_72|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Cimetidine_Tablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Dalton1985a",
+      "Compounds": [
+        {
+          "Name": "Carbamazepine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "IR tablet (FaHIF)",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Epoxidation_Sakamoto2013",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2B6-3-Hydroxylation_Pearce2002",
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "Name": "UGT2B7-N-Glucuronidation_Staines2004",
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "MoleculeName": "MATE1"
+            },
+            {
+              "MoleculeName": "OCT1"
+            },
+            {
+              "MoleculeName": "OAT3"
+            },
+            {
+              "Name": "Glomerular Filtration-Glomerular Filtration",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Dalton1985a_TreatmentPhase_Carbamazepine",
+            "Formulations": [
+              {
+                "Name": "CBZ_tabletIR_fasted (Tegretol)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Cimetidine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Total Hepatic Clearance-Somogyi 1983",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "MATE1-Paper",
+              "MoleculeName": "MATE1"
+            },
+            {
+              "Name": "OCT1-Paper",
+              "MoleculeName": "OCT1"
+            },
+            {
+              "Name": "OAT3-Paper",
+              "MoleculeName": "OAT3"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Dalton1985a_TreatmentPhase_Cimetidine",
+            "Formulations": [
+              {
+                "Name": "Cimetidine_Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dalton1985a_TreatmentPhase-Carbamazepine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Dalton1985a_TreatmentPhase|Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Dalton1985a_TreatmentPhase|Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2
+              }
+            }
+          ],
+          "Name": "Dalton1985_control_600mg_sd_tabIR",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Carbamazepine-DDI\nDalton1985a_TreatmentPhase\n2022-05-10 12:03"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-DMPK",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Carbamazepine"
+        },
+        {
+          "Name": "CYP2B6-Faucette2004",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Carbamazepine"
+        },
+        {
+          "Name": "CYP3A4-Wrighton 1994",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Cimetidine"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Dalton 1985a - Placebo (without cimetidine) - Carbamazepine - PO - 600 mg - Plasma - agg. (n=8)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 898.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Dalton 1985a"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/3987645/"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Placebo (without cimetidine)"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 8.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Carbamazepine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "600 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "3x 200mg tablets"
+        },
+        {
+          "Name": "Food state",
+          "Value": "."
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Dalton 1985a - Placebo (without cimetidine) - Carbamazepine - PO - 600 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine|Individual"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 236.269
+          },
+          "Values": [
+            2.099039,
+            2.418984,
+            2.714461,
+            2.595089,
+            2.964154,
+            3.540213,
+            2.831636,
+            3.144998,
+            2.79779,
+            2.380619,
+            1.6339,
+            1.587331,
+            1.138602,
+            0.8855531,
+            0.6351685,
+            0.5119027,
+            0.3606898,
+            0.2521208,
+            0.234066,
+            0.2043821
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "µg/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Dalton 1985a - Placebo (without cimetidine) - Carbamazepine - PO - 600 mg - Plasma - agg. (n=8)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          16.0,
+          24.0,
+          30.0,
+          36.0,
+          48.0,
+          58.0,
+          72.0,
+          82.0,
+          96.0,
+          106.0,
+          120.0,
+          130.0,
+          144.0,
+          154.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Dalton 1985a - Placebo (without cimetidine) - Carbamazepine-10-11-epoxide - PO - 600 mg - Plasma - agg. (n=8)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 899.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Dalton 1985a"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/3987645/"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Placebo (without cimetidine)"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 8.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Carbamazepine-10-11-epoxide"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "600 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "3x 200mg tablets"
+        },
+        {
+          "Name": "Food state",
+          "Value": "."
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Dalton 1985a - Placebo (without cimetidine) - Carbamazepine-10-11-epoxide - PO - 600 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine-10-11-epoxide|Individual"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 252.27
+          },
+          "Values": [
+            0.053707,
+            0.07731663,
+            0.1036509,
+            0.123794608,
+            0.1316764,
+            0.1964428,
+            0.184402,
+            0.2722675,
+            0.2119635,
+            0.211669,
+            0.1439989,
+            0.1701291,
+            0.1086979,
+            0.08014562,
+            0.0622773245,
+            0.05787384,
+            0.0383134,
+            0.02799919
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "µg/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Dalton 1985a - Placebo (without cimetidine) - Carbamazepine-10-11-epoxide - PO - 600 mg - Plasma - agg. (n=8)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          16.0,
+          24.0,
+          30.0,
+          36.0,
+          48.0,
+          58.0,
+          72.0,
+          82.0,
+          96.0,
+          106.0,
+          120.0,
+          130.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ],
+  "ObservedDataClassifications": [
+    {
+      "Name": "Dalton 1985a",
+      "Classifiables": [
+        "Dalton 1985a - Placebo (without cimetidine) - Carbamazepine - PO - 600 mg - Plasma - agg. (n=8)",
+        "Dalton 1985a - Placebo (without cimetidine) - Carbamazepine-10-11-epoxide - PO - 600 mg - Plasma - agg. (n=8)"
+      ]
+    }
+  ]
+}
