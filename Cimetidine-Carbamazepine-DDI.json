@@ -1936,7 +1936,7 @@
       ]
     },
     {
-      "Name": "Cimetidine_Tablet",
+      "Name": "Tablet",
       "FormulationType": "Formulation_Tablet_Weibull",
       "Parameters": [
         {
