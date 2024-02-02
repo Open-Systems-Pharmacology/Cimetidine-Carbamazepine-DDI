@@ -2296,6 +2296,9 @@
     {
       "Name": "Dalton1985a_TreatmentPhase",
       "Model": "4Comp",
+      "ObservedData": [
+        "Dalton 1985a - Treatment with cimetidine - Carbamazepine - PO - 600 mg - Plasma - agg. (n=8)"
+      ],
       "Solver": {},
       "OutputSchema": [
         {
@@ -2785,6 +2788,13 @@
         "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Dalton1985a_TreatmentPhase|Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Dalton 1985a - Treatment with cimetidine - Carbamazepine - PO - 600 mg - Plasma - agg. (n=8)"
+        }
+      ],
       "Individual": "Dalton1985a",
       "Compounds": [
         {
@@ -2925,6 +2935,17 @@
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Dalton 1985a - Treatment with cimetidine - Carbamazepine - PO - 600 mg - Plasma - agg. (n=8)-Carbamazepine-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Dalton 1985a - Treatment with cimetidine - Carbamazepine - PO - 600 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Dalton 1985a - Treatment with cimetidine - Carbamazepine - PO - 600 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine|Individual",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
               }
             }
           ],
@@ -3137,7 +3158,7 @@
       }
     },
     {
-      "Name": "Dalton 1985a - Placebo (without cimetidine) - Carbamazepine-10-11-epoxide - PO - 600 mg - Plasma - agg. (n=8)",
+      "Name": "Dalton 1985a - Treatment with cimetidine - Carbamazepine - PO - 600 mg - Plasma - agg. (n=8)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -3146,7 +3167,7 @@
         },
         {
           "Name": "ID",
-          "Value": 899.0,
+          "Value": 900.0,
           "Type": "Double"
         },
         {
@@ -3166,7 +3187,7 @@
         },
         {
           "Name": "Grouping",
-          "Value": "Placebo (without cimetidine)",
+          "Value": "Treatment with cimetidine",
           "Type": "String"
         },
         {
@@ -3181,7 +3202,7 @@
         },
         {
           "Name": "Molecule",
-          "Value": "Carbamazepine-10-11-epoxide",
+          "Value": "Carbamazepine",
           "Type": "String"
         },
         {
@@ -3211,7 +3232,7 @@
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0,
+          "Value": 47.0,
           "Type": "Double"
         },
         {
@@ -3234,32 +3255,34 @@
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Path": "Dalton 1985a - Placebo (without cimetidine) - Carbamazepine-10-11-epoxide - PO - 600 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine-10-11-epoxide|Individual"
+            "Path": "Dalton 1985a - Treatment with cimetidine - Carbamazepine - PO - 600 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine|Individual"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 252.27
+            "MolWeight": 236.269
           },
           "Values": [
-            0.053707,
-            0.07731663,
-            0.1036509,
-            0.123794608,
-            0.1316764,
-            0.1964428,
-            0.184402,
-            0.2722675,
-            0.2119635,
-            0.211669,
-            0.1439989,
-            0.1701291,
-            0.1086979,
-            0.08014562,
-            0.0622773245,
-            0.05787384,
-            0.0383134,
-            0.02799919
+            2.717103,
+            3.642302,
+            3.944307,
+            4.309525,
+            4.424255,
+            4.154807,
+            4.744039,
+            4.034985,
+            3.589273,
+            4.282947,
+            2.64168,
+            2.805384,
+            1.639702,
+            1.309783,
+            0.9735537,
+            0.8203106,
+            0.6097317,
+            0.5137563,
+            0.4643707,
+            0.3275169
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -3268,7 +3291,7 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Path": "Dalton 1985a - Placebo (without cimetidine) - Carbamazepine-10-11-epoxide - PO - 600 mg - Plasma - agg. (n=8)|Time",
+          "Path": "Dalton 1985a - Treatment with cimetidine - Carbamazepine - PO - 600 mg - Plasma - agg. (n=8)|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -3276,37 +3299,30 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          2.0,
-          4.0,
-          6.0,
-          8.0,
-          10.0,
-          12.0,
-          16.0,
-          24.0,
-          30.0,
-          36.0,
-          48.0,
-          58.0,
-          72.0,
-          82.0,
-          96.0,
-          106.0,
-          120.0,
-          130.0
+          49.0,
+          51.0,
+          53.0,
+          55.0,
+          57.0,
+          59.0,
+          63.0,
+          71.0,
+          77.0,
+          83.0,
+          95.0,
+          105.0,
+          119.0,
+          129.0,
+          143.0,
+          153.0,
+          167.0,
+          177.0,
+          191.0,
+          201.0
         ],
         "Dimension": "Time",
         "Unit": "h"
       }
-    }
-  ],
-  "ObservedDataClassifications": [
-    {
-      "Name": "Dalton 1985a",
-      "Classifiables": [
-        "Dalton 1985a - Placebo (without cimetidine) - Carbamazepine - PO - 600 mg - Plasma - agg. (n=8)",
-        "Dalton 1985a - Placebo (without cimetidine) - Carbamazepine-10-11-epoxide - PO - 600 mg - Plasma - agg. (n=8)"
-      ]
     }
   ]
 }
