@@ -1,5 +1,7 @@
 {
-  "Version": 79,
+  "Name": "Cimetidine-Carbamazepine-DDI",
+  "Version": 81,
+  "ApplicationName": "PK-Sim",
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -10,12 +12,14 @@
         {
           "Path": "CYP3A4|Reference concentration",
           "Value": 4.32,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP3A4|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP3A4|t1/2 (liver)",
@@ -27,51 +31,63 @@
         },
         {
           "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
+          "Value": 0.0041682898325,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
+          "Value": 0.00078691079081,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
+          "Value": 0.0053603428126,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
+          "Value": 0.00042695753798,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
@@ -96,24 +112,29 @@
         {
           "Path": "MATE1|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "MATE1|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|MATE1|Relative expression",
-          "Value": 0.4295320813
+          "Value": 0.4295320813,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|MATE1|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Muscle|Intracellular|MATE1|Relative expression",
-          "Value": 0.3637328555
+          "Value": 0.3637328555,
+          "ValueOrigin": {}
         }
       ],
       "TransportType": "Efflux",
@@ -355,108 +376,134 @@
         {
           "Path": "OCT1|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "OCT1|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Bone|Intracellular|OCT1|Relative expression",
-          "Value": 0.02439093
+          "Value": 0.02439093,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|OCT1|Relative expression",
-          "Value": 0.0135293069
+          "Value": 0.0135293069,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|OCT1|Relative expression",
-          "Value": 0.0035130263768
+          "Value": 0.0035130263768,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Heart|Intracellular|OCT1|Relative expression",
-          "Value": 0.0067231912312
+          "Value": 0.0067231912312,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|OCT1|Relative expression",
-          "Value": 0.031737522
+          "Value": 0.031737522,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Intracellular|OCT1|Relative expression",
-          "Value": 0.0315629708
+          "Value": 0.0315629708,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|OCT1|Relative expression",
-          "Value": 0.0315629708
+          "Value": 0.0315629708,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|OCT1|Relative expression",
-          "Value": 0.0315629708
+          "Value": 0.0315629708,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|OCT1|Relative expression",
-          "Value": 0.0315629708
+          "Value": 0.0315629708,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|OCT1|Relative expression",
-          "Value": 0.0315629708
+          "Value": 0.0315629708,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|OCT1|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|OCT1|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|OCT1|Relative expression",
-          "Value": 0.0146483426
+          "Value": 0.0146483426,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Muscle|Intracellular|OCT1|Relative expression",
-          "Value": 0.0407525944
+          "Value": 0.0407525944,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Pancreas|Intracellular|OCT1|Relative expression",
-          "Value": 0.0065687827703
+          "Value": 0.0065687827703,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Skin|Intracellular|OCT1|Relative expression",
-          "Value": 0.0119814482
+          "Value": 0.0119814482,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|OCT1|Relative expression",
-          "Value": 0.0245459351
+          "Value": 0.0245459351,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|OCT1|Relative expression",
-          "Value": 0.0245459351
+          "Value": 0.0245459351,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|OCT1|Relative expression",
-          "Value": 0.0245459351
+          "Value": 0.0245459351,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|OCT1|Relative expression",
-          "Value": 0.0245459351
+          "Value": 0.0245459351,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|OCT1|Relative expression",
-          "Value": 0.0245459351
+          "Value": 0.0245459351,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|OCT1|Relative expression",
-          "Value": 0.0245459351
+          "Value": 0.0245459351,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Spleen|Intracellular|OCT1|Relative expression",
-          "Value": 0.0050234148247
+          "Value": 0.0050234148247,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Stomach|Intracellular|OCT1|Relative expression",
-          "Value": 0.0093257582694
+          "Value": 0.0093257582694,
+          "ValueOrigin": {}
         }
       ],
       "TransportType": "Influx",
@@ -698,28 +745,34 @@
         {
           "Path": "OAT3|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "OAT3|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|OAT3|Relative expression",
-          "Value": 0.00061613691932
+          "Value": 0.00061613691932,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|OAT3|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|OAT3|Relative expression",
-          "Value": 0.00016503667482
+          "Value": 0.00016503667482,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|OAT3|Relative expression",
-          "Value": 0.00016503667482
+          "Value": 0.00016503667482,
+          "ValueOrigin": {}
         }
       ],
       "TransportType": "Influx",
@@ -953,65 +1006,80 @@
         {
           "Path": "CYP2B6|Reference concentration",
           "Value": 1.56,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP2B6|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP2B6|t1/2 (liver)",
           "Value": 32.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0021211129296
+          "Value": 0.0021211129296,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0063502454992
+          "Value": 0.0063502454992,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.1043535188
+          "Value": 0.1043535188,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|CYP2B6|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|CYP2B6|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.5970540098
+          "Value": 0.5970540098,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
@@ -1024,63 +1092,78 @@
       "Parameters": [
         {
           "Path": "Organism|Gonads|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.00094468085106
+          "Value": 0.00094468085106,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0049787234043
+          "Value": 0.0049787234043,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0049787234043
+          "Value": 0.0049787234043,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0049787234043
+          "Value": 0.0049787234043,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0049787234043
+          "Value": 0.0049787234043,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0049787234043
+          "Value": 0.0049787234043,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|UGT2B7|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|UGT2B7|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Pancreas|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0354468085
+          "Value": 0.0354468085,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
+          "Value": 0.5361702128,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
+          "Value": 0.5361702128,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
+          "Value": 0.5361702128,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
+          "Value": 0.5361702128,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
+          "Value": 0.5361702128,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
+          "Value": 0.5361702128,
+          "ValueOrigin": {}
         },
         {
           "Path": "UGT2B7|Reference concentration",
@@ -1094,12 +1177,14 @@
         {
           "Path": "UGT2B7|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "UGT2B7|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular",
@@ -1427,11 +1512,13 @@
             {
               "Name": "EC50",
               "Value": 1000.0,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "Emax",
-              "Value": 148.7284
+              "Value": 148.7284,
+              "ValueOrigin": {}
             }
           ]
         }
@@ -1516,7 +1603,7 @@
           "Parameters": [
             {
               "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 5.2554004942E-06,
+              "Value": 5.2554004942e-06,
               "Unit": "cm/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
@@ -1553,17 +1640,20 @@
           "Parameters": [
             {
               "Name": "Fraction unbound (experiment)",
-              "Value": 0.78
+              "Value": 0.78,
+              "ValueOrigin": {}
             },
             {
               "Name": "Lipophilicity (experiment)",
               "Value": 1.655,
-              "Unit": "Log Units"
+              "Unit": "Log Units",
+              "ValueOrigin": {}
             },
             {
               "Name": "Plasma clearance",
               "Value": 0.0,
-              "Unit": "ml/min/kg"
+              "Unit": "ml/min/kg",
+              "ValueOrigin": {}
             },
             {
               "Name": "Specific clearance",
@@ -1585,12 +1675,14 @@
             {
               "Name": "Transporter concentration",
               "Value": 1.0,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "Vmax",
               "Value": 0.0,
-              "Unit": "µmol/l/min"
+              "Unit": "µmol/l/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
@@ -1620,12 +1712,14 @@
             {
               "Name": "Transporter concentration",
               "Value": 1.0,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "Vmax",
               "Value": 0.0,
-              "Unit": "µmol/l/min"
+              "Unit": "µmol/l/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
@@ -1656,12 +1750,14 @@
             {
               "Name": "Transporter concentration",
               "Value": 1.0,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "Vmax",
               "Value": 0.0,
-              "Unit": "µmol/l/min"
+              "Unit": "µmol/l/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
@@ -1691,7 +1787,8 @@
           "Parameters": [
             {
               "Name": "GFR fraction",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -1796,7 +1893,8 @@
         {
           "Name": "Lag time",
           "Value": 0.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Name": "Dissolution shape",
@@ -1809,7 +1907,8 @@
         },
         {
           "Name": "Use as suspension",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1820,20 +1919,24 @@
         {
           "Name": "Dissolution time (50% dissolved)",
           "Value": 1.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Name": "Lag time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "Dissolution shape",
-          "Value": 10.0
+          "Value": 10.0,
+          "ValueOrigin": {}
         },
         {
           "Name": "Use as suspension",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         }
       ]
     }
@@ -1847,17 +1950,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 600.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1876,17 +1982,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 155.835,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             },
@@ -1898,17 +2007,20 @@
                 {
                   "Name": "Start time",
                   "Value": 4.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 155.835,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             },
@@ -1920,17 +2032,20 @@
                 {
                   "Name": "Start time",
                   "Value": 12.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 155.835,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             },
@@ -1942,17 +2057,20 @@
                 {
                   "Name": "Start time",
                   "Value": 8.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 155.835,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             },
@@ -1964,17 +2082,20 @@
                 {
                   "Name": "Start time",
                   "Value": 5.41,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 144.165,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             },
@@ -1986,17 +2107,20 @@
                 {
                   "Name": "Start time",
                   "Value": 1.41,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 144.165,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             },
@@ -2008,17 +2132,20 @@
                 {
                   "Name": "Start time",
                   "Value": 9.41,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 144.165,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             },
@@ -2030,17 +2157,20 @@
                 {
                   "Name": "Start time",
                   "Value": 13.41,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 144.165,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -2049,16 +2179,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 9.0
+              "Value": 9.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 24.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -2080,17 +2213,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 600.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -2099,16 +2235,19 @@
             {
               "Name": "Start time",
               "Value": 47.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -2130,7 +2269,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -2143,16 +2283,18 @@
             {
               "Name": "Resolution",
               "Value": 10.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Applications|Dalton1985a_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -2211,6 +2353,18 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-DMPK",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Carbamazepine"
+        },
+        {
+          "Name": "CYP2B6-Faucette2004",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Carbamazepine"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -2279,18 +2433,6 @@
           },
           "OriginText": "Cimetidine-Carbamazepine-DDI\nDalton1985a_ControlPhase\n2022-05-10 11:56"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-DMPK",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Carbamazepine"
-        },
-        {
-          "Name": "CYP2B6-Faucette2004",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Carbamazepine"
-        }
       ]
     },
     {
@@ -2306,7 +2448,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -2319,7 +2462,8 @@
             {
               "Name": "Resolution",
               "Value": 10.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2344,7 +2488,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2397,391 +2542,468 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_18|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_19|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_20|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_20|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_21|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_21|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_22|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_22|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_23|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_23|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_24|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_24|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_25|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_25|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_26|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_26|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_27|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_27|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_28|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_28|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_29|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_29|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_30|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_30|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_31|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_31|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_32|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_32|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_33|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_33|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_34|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_34|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_35|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_35|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_36|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_36|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_37|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_37|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_38|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_38|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_39|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_39|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_40|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_40|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_41|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_41|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_42|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_42|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_43|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_43|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_44|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_44|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_45|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_45|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_46|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_46|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_47|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_47|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_48|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_48|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_49|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_49|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_50|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_50|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_51|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_51|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_52|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_52|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_53|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_53|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_54|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_54|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_55|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_55|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_56|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_56|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_57|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_57|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_58|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_58|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_59|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_59|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_60|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_60|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_61|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_61|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_62|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_62|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_63|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_63|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_64|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_64|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_65|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_65|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_66|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_66|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_67|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_67|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_68|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_68|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_69|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_69|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_70|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_70|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_71|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_71|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_72|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_72|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Dalton1985a_TreatmentPhase_Cimetidine|Tablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Undefined Liver|Reference concentration",
           "Value": 1.0,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "Undefined Liver|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Undefined Liver|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -2892,6 +3114,23 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-DMPK",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Carbamazepine"
+        },
+        {
+          "Name": "CYP2B6-Faucette2004",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Carbamazepine"
+        },
+        {
+          "Name": "CYP3A4-Wrighton 1994",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Cimetidine"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -2968,23 +3207,6 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Cimetidine-Carbamazepine-DDI\nDalton1985a_TreatmentPhase\n2022-05-10 12:03"
-        }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-DMPK",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Carbamazepine"
-        },
-        {
-          "Name": "CYP2B6-Faucette2004",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Carbamazepine"
-        },
-        {
-          "Name": "CYP3A4-Wrighton 1994",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Cimetidine"
         }
       ]
     }
